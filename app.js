@@ -27,7 +27,7 @@ function example()
   console.log(fullName2+"\n");
   //console.log(fullName+"\n");
 
-  var myStory = "Hello. My name is " + fullName + ". I currently live in "+ city + ". I enjoy " + pasttime + " and coding!"
+  var myStory = `Hello. My name is ${fullName}. I currently live in ${city}. I enjoy ${pasttime} and coding!`
 
   console.log(myStory+"\n");
 }
